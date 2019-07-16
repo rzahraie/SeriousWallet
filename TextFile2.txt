@@ -1,0 +1,78 @@
+<TextView
+                        android:text="BTC"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/firstTextView"
+                        android:textSize="48sp"
+                        android:textStyle="bold"
+                        android:gravity="bottom" />
+                    <TextView
+                        android:text="ETH"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/secondTextView"
+                        android:layout_below="@+id/firstTextView"
+                        android:textSize="36dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="-12dp" />
+                    <TextView
+                        android:text="XRP"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/firstTextView"
+                        android:id="@+id/thirdTextView"
+                        android:layout_toRightOf="@+id/secondTextView"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:layout_alignBottom="@+id/secondTextView"
+                        android:layout_marginBottom="3dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                    <TextView
+                        android:text="ZEC"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/firstTextView"
+                        android:id="@+id/fourthTextView"
+                        android:rotation="270"
+                        android:layout_alignTop="@+id/firstTextView"
+                        android:layout_marginTop="17dp"
+                        android:textSize="28sp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="-10dp" />
+                    <TextView
+                        android:text="LTC"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/thirdTextView"
+                        android:id="@+id/fifthTextView"
+                        android:rotation="315"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_alignTop="@+id/thirdTextView"
+                        android:layout_marginTop="5dp" />
+						<TextView
+                        android:text="Portfolio Value:"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/fifthTextView"
+                        android:id="@+id/sixthTextView"
+                        android:textSize="10sp"
+                        android:layout_alignTop="@+id/firstTextView"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginLeft="8dp" />
+                    <TextView
+                        android:text="$1,000,000,000"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/sixthTextView"
+                        android:id="@+id/textView7"
+                        android:layout_toRightOf="@+id/fourthTextView"
+                        android:layout_alignLeft="@+id/sixthTextView"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />

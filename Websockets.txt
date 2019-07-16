@@ -1,0 +1,45 @@
+//private async void GetQuotes()
+            //{
+            //    try
+            //    {
+            //        webSocket = new ClientWebSocket();
+            //        await webSocket.ConnectAsync(new System.Uri("wss://streamer.cryptocompare.com/socket.io/?transport=websocket"),
+            //            System.Threading.CancellationToken.None);
+
+            //        var data = "42[\"SubAdd\",{\"subs\":[\"0~Bitfinex~BTC~USD\"]}]";
+            //        var data2 = "42[\"SubAdd\",{\"subs\":[\"2~Poloniex~BTC~USD\"]}]";
+            //        var encoded = Encoding.UTF8.GetBytes(data2);
+            //        var buffer = new ArraySegment<Byte>(encoded, 0, encoded.Length);
+
+            //        await webSocket.SendAsync(buffer, WebSocketMessageType.Text, true, System.Threading.CancellationToken.None);
+
+            //        ArraySegment<Byte> readBuffer = new ArraySegment<byte>(new Byte[8192]);
+
+            //        while (webSocket.State == WebSocketState.Open)
+            //        {
+            //            var result = await webSocket.ReceiveAsync(readBuffer, CancellationToken.None);
+            //            var str = Encoding.Default.GetString(readBuffer.Array, readBuffer.Offset, result.Count);
+            //        }
+            //    }
+            //    catch(TaskCanceledException)
+            //    {
+
+            //    }
+
+            //}
+
+            //private void GetQuotes()
+            //{
+            //    SocketIO.Client.Socket socket;
+            //    socket = IO.Socket("https://streamer.cryptocompare.com/");
+
+            //    socket.Connect();
+
+            //    string str = socket.Id;
+
+            //    socket.On(Socket.EventConnect, (data) => 
+            //    {
+            //        EngineIO.Emitter emitter = socket.Emit("SubAdd", "5~CCCAGG~BTC~USD");
+
+            //    });
+            //}
