@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/copyAddress"
+        android:title="Copy Address"/>
+  <item android:id="@+id/copyLabel"
+        android:title="Copy Label" />
+  <item android:id="@+id/copyAmount"
+        android:title="Copy Amount" />
+  <item android:id="@+id/copyTransactionId"
+        android:title="Copy Transaction Id" />
+  <item android:id="@+id/copyRawTransaction"
+        android:title="Copy Raw Transaction" />
+  <item android:id="@+id/copyFullTransactionDetails"
+        android:title="Copy Full Transaction Details" />
+  <item android:id="@+id/showTransactionDetails"
+        android:title="Show Transaction Details" />
+  <item android:id="@+id/increaseTransFee"
+        android:title="Increate Transaction Fee" />
+  <item android:id="@+id/abandonTrans"
+        android:title="Abandon Transaction" />
+  <item android:id="@+id/editLabel"
+        android:title="Edit Label" />
+</menu>

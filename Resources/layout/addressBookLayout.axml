@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/recyclerItemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:background="@color/cardview_light_background">
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:id="@+id/addressName"
+        android:textColor="@color/indigo"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:drawableLeft="@drawable/ic_perm_identity_blue_light_18dp"
+        android:paddingLeft="2dp"
+        android:drawablePadding="@dimen/abc_action_bar_subtitle_bottom_margin_material" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/addressEmail"
+        android:textColor="@color/bright_foreground_disabled_material_light"
+        android:drawableLeft="@drawable/ic_email_blue_light_18dp"
+        android:drawablePadding="@dimen/abc_action_bar_subtitle_bottom_margin_material"
+        android:paddingLeft="2dp"
+        android:textSize="10dp" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textLongMessage"
+        android:id="@+id/walletAddress"
+        android:textColor="@color/bright_foreground_disabled_material_light"
+        android:drawableLeft="@drawable/ic_qr_code_scan_blue"
+        android:drawablePadding="@dimen/abc_action_bar_subtitle_bottom_margin_material"
+        android:paddingLeft="2dp"
+        android:textSize="10dp" />
+</LinearLayout>

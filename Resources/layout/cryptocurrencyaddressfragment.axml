@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/background_floating_material_light"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50.0dp"
+        android:id="@+id/relativeLayout1">
+        <TextView
+            android:text="Private address"
+            android:layout_width="310dp"
+            android:layout_height="48dp"
+            android:id="@+id/privateAddressTextView"
+            android:layout_marginRight="5dp"
+            android:textStyle="normal"
+            android:textSize="15sp"
+            android:textColor="@color/cardview_dark_background"
+            android:fontFamily="roboto-regular"
+            android:paddingLeft="24dp" />
+        <ImageButton
+            android:background="@drawable/ic_keyboard_arrow_down_black_18dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/privateAddressButton"
+            android:layout_toRightOf="@+id/privateAddressTextView"
+            android:layout_alignTop="@+id/privateAddressTextView" />
+    </RelativeLayout>
+    <FrameLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/privateFrameLayout">
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView1" />
+    </FrameLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50.0dp"
+        android:id="@+id/relativeLayout2">
+        <TextView
+            android:text="Public address"
+            android:layout_width="310dp"
+            android:layout_height="48dp"
+            android:id="@+id/publicAddressTextView"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:textColor="@color/cardview_dark_background"
+            android:paddingLeft="24dp" />
+        <ImageButton
+            android:background="@drawable/ic_keyboard_arrow_down_black_18dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/PublicAddressButton"
+            android:layout_toRightOf="@+id/publicAddressTextView"
+            android:layout_alignTop="@+id/publicAddressTextView" />
+    </RelativeLayout>
+    <FrameLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/publicFrameLayout">
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView2" />
+    </FrameLayout>
+</LinearLayout>

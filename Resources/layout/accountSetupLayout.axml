@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <android.support.design.widget.TextInputLayout
+     android:id="@+id/accountFirstNameLayout"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="4dp"
+     android:layout_marginStart="3dp"
+     android:theme="@style/TextInputLayoutStyle">
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:hint="First name"
+        android:layout_height="wrap_content"
+        android:id="@+id/accountFirstNameEdit"
+        android:inputType="text"/>
+  </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+     android:id="@+id/accountLastNameLayout"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="4dp"
+     android:layout_marginStart="3dp"
+     android:theme="@style/TextInputLayoutStyle">
+      <android.support.design.widget.TextInputEditText
+          android:layout_width="match_parent"
+          android:hint="Last name"
+          android:layout_height="wrap_content"
+          android:id="@+id/accountLastNameEdit"
+          android:inputType="text"/>
+       </android.support.design.widget.TextInputLayout>
+  <android.support.design.widget.TextInputLayout
+       android:id="@+id/accountPhoneNumberLayout"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="4dp"
+       android:layout_marginStart="3dp"
+       android:theme="@style/TextInputLayoutStyle">
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:hint="Phone number"
+        android:layout_height="wrap_content"
+        android:id="@+id/accountPhoneNumberEdit"
+        android:inputType="phone"/>
+  </android.support.design.widget.TextInputLayout>
+  <android.support.design.widget.TextInputLayout
+       android:id="@+id/accountEMailLayout"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="4dp"
+       android:layout_marginStart="3dp"
+       android:theme="@style/TextInputLayoutStyle">
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:hint="E-mail"
+        android:layout_height="wrap_content"
+        android:id="@+id/accountEMailEdit"
+        android:inputType="textEmailAddress"/>
+  </android.support.design.widget.TextInputLayout>
+</LinearLayout>

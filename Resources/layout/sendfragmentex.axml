@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainSendLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cardview_light_background"
+    android:focusable="true"
+    android:clickable="true">
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/amountLayoutFrag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="3dp"
+        android:theme="@style/TextInputLayoutStyle">
+        <android.support.design.widget.TextInputEditText
+            android:hint="Amount"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/amountEditFrag"
+            android:textColor="@color/abc_search_url_text_normal"
+            android:inputType="numberDecimal" />
+    </android.support.design.widget.TextInputLayout>
+    <TextView
+        android:id="@+id/dollarAmountTextViewFrag"
+        android:textStyle="normal"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-3dp"
+        android:layout_marginLeft="3dp" />
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="5dp">
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/userNameLayoutFrag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="3dp"
+            android:theme="@style/TextInputLayoutStyle">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/userNameTextEditFrag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Bitcoin address"
+                android:inputType="text" />
+        </android.support.design.widget.TextInputLayout>
+        <LinearLayout
+            android:id="@+id/buttonLayoutFrag"
+            android:layout_width="72dp"
+            android:layout_height="23dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right|bottom"
+            android:layout_marginBottom="10dp"
+            android:visibility="invisible">
+            <Button
+                android:id="@+id/addressBookFrag"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/ic_account_circle_black_18dp"
+                android:clickable="true" />
+            <Button
+                android:id="@+id/qrCodeFrag"
+                android:layout_marginLeft="1dp"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/qrcodescan"
+                android:clickable="true" />
+            <Button
+                android:id="@+id/clearFrag"
+                android:layout_marginLeft="1dp"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:background="@drawable/ic_close_black_18dp"
+                android:clickable="true" />
+        </LinearLayout>
+    </FrameLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/addressRecyclerView"
+        android:focusable="true"
+        android:clickable="true"
+        android:clipToPadding="false"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:visibility="gone" />
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/labelLayoutFrag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="3dp"
+        android:theme="@style/TextInputLayoutStyle">
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:hint="Label:"
+            android:layout_height="wrap_content"
+            android:id="@+id/labelEditFrag" />
+    </android.support.design.widget.TextInputLayout>
+    <View
+        android:id="@+id/topView"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="4dp"
+        android:background="#c0c0c0"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" />
+    <TextView
+        android:id="@+id/transactionFeeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="6dp"
+        android:textColor="@color/material_grey_600"
+        android:textSize="20dp"
+        android:text="Transaction Fees" />
+    <RadioGroup
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/feesRadioGroup">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Low"
+            android:id="@+id/radioButton1" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium"
+            android:id="@+id/radioButton2" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="High"
+            android:id="@+id/radioButton3" />
+    </RadioGroup>
+    <View
+        android:id="@+id/bottomView"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:background="#c0c0c0"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" />
+<!--<LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:id="@+id/linearLayout1">
+    <Button
+        android:text="Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/cancelFrag"
+        android:layout_marginLeft="230dp"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:textColor="@color/indigo"
+        android:clickable="true" />
+    <Button
+        android:text="Send"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/sendFrag"
+        android:layout_marginLeft="2dp"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:textColor="@color/indigo"
+        android:clickable="true" />
+  </LinearLayout>-->
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <Button
+            android:text="Send payment"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/sendFrag"
+            android:layout_centerInParent="true"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:textColor="@color/indigo"
+            android:clickable="true" />
+    </RelativeLayout>
+</LinearLayout>

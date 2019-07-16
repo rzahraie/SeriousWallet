@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/numberLayout"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="3dp"
+        android:theme="@style/TextInputLayoutStyle">
+      <android.support.design.widget.TextInputEditText
+          android:hint="Number of signatories"
+          android:layout_width="130dp"
+          android:layout_height="wrap_content"
+          android:id="@+id/numberEdit"
+          android:inputType="numberDecimal" />
+    </android.support.design.widget.TextInputLayout>
+    <ImageButton
+        android:id="@+id/minusButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="27dp"
+        android:src="@drawable/ic_remove_black_18dp"
+        android:background="@android:color/transparent" />
+    <ImageButton
+        android:id="@+id/plusButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="27dp"
+        android:src="@drawable/ic_add_black_18dp"
+        android:background="@android:color/transparent" />
+  </LinearLayout>
+</LinearLayout>

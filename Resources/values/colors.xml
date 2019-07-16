@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--Get colors from: http://www.materialpalette.com/-->
+  <color name="primary">#03A9F4</color>
+  <color name="primaryDark">#0288D1</color>
+  <color name="PrimaryYellow">#FDB826</color>
+  <color name="accent">#FFC107</color>
+  <color name="lightPrimary">#B3E5FC</color>
+  <color name="textIcon">#FFFFFF</color>
+  <color name="primaryText">#212121</color>
+  <color name="secondaryText">#727272</color>
+  <color name="divider">#B6B6B6</color>
+  <color name="activated_color">#E8E8E8</color>
+  <color name="PrimaryBlue">#004B85</color>
+  <color name="PrimaryYellow">#FDB826</color>
+  <color name="PrimaryDarkGray">#666666</color>
+  <color name="SecondaryDarkBlue">#1A5D91</color>
+  <color name="SecondaryLightBlue">#4484B5</color>
+  <color name="SecondaryLightGray">#CCCCCC</color>
+  <color name="SecondaryMediumGray">#999999</color>
+  <color name="SecondaryDarkGray">#333333</color>
+  <color name="SecondaryWhite">#FFFFFF</color>
+  <color name="indigo">#3F51B5</color>
+  <color name="SplashBackground">#FFFFFF</color>
+</resources>

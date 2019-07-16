@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item
+       android:id="@+id/menu_wallet"
+       android:icon="@drawable/ic_account_balance_wallet_white_18dp"
+       app:showAsAction="always"
+       android:title="Wallets"/>
+  <item
+       android:id="@+id/menu_grid_view"
+       android:icon="@drawable/ic_view_list_white_18dp"
+       app:showAsAction="always"
+       android:title="Grid"/>
+  <item
+       android:id="@+id/menu_card_view"
+       android:icon="@drawable/ic_view_module_white_18dp"
+       app:showAsAction="always"
+       android:title="Panel"/>
+  <!--<item
+    android:id="@+id/menu_settings"
+    android:icon="@drawable/ic_settings_white_18dp"
+    app:showAsAction="always"
+    android:title="Settings"/>-->
+</menu>

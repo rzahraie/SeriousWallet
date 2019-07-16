@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <android.support.v7.widget.CardView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:id="@+id/cardView1"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/relativeLayout2">
+            <RelativeLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Private address"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="310dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/privateAddressTextViewEx"
+                    android:textSize="30sp" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/privateAddressTextViewEx"
+                    android:id="@+id/privateAddressButtonEx"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignTop="@+id/textView1"
+                    android:background="@drawable/ic_keyboard_arrow_down_black_18dp" />
+            </RelativeLayout>
+            <ImageView
+                android:id="@+id/privateAddressImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/relativeLayout1"
+                android:src="@android:drawable/ic_menu_gallery" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="10dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/cardView2"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_weight="1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/relativeLayout4">
+            <RelativeLayout
+                android:id="@+id/relativeLayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Public address"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_width="310dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/publicAddressTextViewEx"
+                    android:textSize="30sp" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/publicAddressTextViewEx"
+                    android:id="@+id/publicAddressButtonEx"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignTop="@+id/publicAddressTextViewEx"
+                    android:background="@drawable/ic_keyboard_arrow_down_black_18dp" />
+            </RelativeLayout>
+            <ImageView
+                android:src="@android:drawable/ic_menu_gallery"
+                android:id="@+id/publicAddressImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/relativeLayout3" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

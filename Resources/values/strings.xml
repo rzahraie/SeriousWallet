@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Serious Wallet</string>
+  <string name="send">Send</string>
+  <string name="receive">Receive</string>
+  <string name="cancel">Cancel</string>
+  <string name="next">Next</string>
+  <string name="done">Done</string>
+  <string name="prev">Previous</string>
+  <string name="add">Add</string>
+  <string name="yes">Yes</string>
+  <string name="NavigationDrawerOpen">Open</string>
+  <string name="NavigationDrawerClose">Close</string>
+  <string name="root_title">Root Title</string>
+  <string name="title_basic_preference">Title Basic</string>
+  <string name="summary_basic_preference">Summary Basic</string>
+  <string name="title_stylish_preference">Title Stylish</string>
+  <string name="summary_stylish_preference">Summary Stylish</string>
+  <string name="inline_preferences">Inline Preferences</string>
+  <string name="title_checkbox_preference">Title Checkbox</string>
+  <string name="summary_checkbox_preference">Summary Checkbox</string>
+  <string name="title_dropdown_preference">Title Dropdown</string>
+  <string name="summary_dropdown_preference">Summary Dropdown</string>
+  <string-array name="entries_list_preference">
+    <item>List11</item>
+    <item>List12</item>
+    <item>List13</item>
+    <item>List14</item>
+    <item>List15</item>
+    <item>List16</item>
+  </string-array>
+  <string-array name="entryvalues_list_preference">
+    <item>Values11</item>
+    <item>Values12</item>
+    <item>Values13</item>
+    <item>Values14</item>
+    <item>Values15</item>
+    <item>Values16</item>
+  </string-array>
+  <string-array name="empty_array"> 
+    
+  </string-array>
+  <string name="dialog_based_preferences">Dialog Based</string>
+  <string name="title_edittext_preference">Title Edit Text</string>
+  <string name="summary_edittext_preference">Summary Edit Text</string>
+  <string name="dialog_title_edittext_preference">Dialog Title Edit Text</string>
+  <string name="title_list_preference">Title List</string>
+  <string name="summary_list_preference">Summary List</string>
+  <string name="dialog_title_list_preference">Dialog Title</string>
+  <string name="title_multi_list_preference">Title Multi</string>
+  <string name="summary_multi_list_preference">Summary Multi</string>
+  <string name="dialog_title_multi_list_preference">Dialog Title Multi</string>
+  <string name="launch_preferences">Launch Preferences</string>
+  <string name="title_screen_preference">Title Screen</string>
+  <string name="summary_screen_preference">Summary Screen</string>
+  <string name="title_next_screen_toggle_preference">Title Next Screen Toggle</string>
+  <string name="summary_next_screen_toggle_preference">Summary Next Screen</string>
+  <string name="title_intent_preference">Title Intent</string>
+  <string name="summary_intent_preference">Summary Intent</string>
+  <string name="preference_attributes">Preferences Attributes</string>
+  <string name="title_parent_preference">Title Parent</string>
+  <string name="summary_parent_preference">Summary Parent</string>
+  <string name="title_child_preference">Title Child</string>
+  <string name="summary_child_preference">Summary Child</string>
+  <string name="pref_color_code">Switch Code</string>
+  <string name="pref_color_code_title">Color Code Title</string>
+  <string name="pref_color_code_summary">Color Code Summary</string>
+  <string-array name="Currency_Array">
+    <item>BTC   - Bitcoin</item>
+    <item>DASH  - Dash</item>
+    <item>EOS   - EOS</item>
+    <item>ETH   - Ethereum</item>
+    <item>MIOTA - IOTA</item>
+    <item>NANO  - NANO</item>
+    <item>LTC   - Litecoin</item>
+    <item>OMG   - OmiseGO</item>
+    <item>XEM   - NEM</item>
+    <item>XLM   - Stellar Lumens</item>
+    <item>XRP   - Ripple</item>
+    <item>XMR   - Monero</item>
+  </string-array>
+</resources>
